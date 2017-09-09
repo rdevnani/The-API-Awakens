@@ -54,6 +54,12 @@
 		86EE709E1F63B25C00C3B569 /* API Awaken */ = {
 			isa = PBXGroup;
 			children = (
+				86EE70B61F63B2CB00C3B569 /* Delegates */,
+				86EE70B51F63B2BC00C3B569 /* Data Source */,
+				86EE70B41F63B2B700C3B569 /* Controllers */,
+				86EE70B31F63B2AF00C3B569 /* Networking */,
+				86EE70B21F63B2A800C3B569 /* Model */,
+				86EE70B11F63B29F00C3B569 /* Views */,
 				86EE709F1F63B25C00C3B569 /* AppDelegate.swift */,
 				86EE70A11F63B25C00C3B569 /* ViewController.swift */,
 				86EE70A31F63B25C00C3B569 /* Main.storyboard */,
@@ -62,6 +68,56 @@
 				86EE70AB1F63B25C00C3B569 /* Info.plist */,
 			);
 			path = "API Awaken";
+			sourceTree = "<group>";
+		};
+		86EE70B11F63B29F00C3B569 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		86EE70B21F63B2A800C3B569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86EE70B71F63B2D600C3B569 /* Endpoints */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		86EE70B31F63B2AF00C3B569 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		86EE70B41F63B2B700C3B569 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		86EE70B51F63B2BC00C3B569 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		86EE70B61F63B2CB00C3B569 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		86EE70B71F63B2D600C3B569 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Endpoints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
